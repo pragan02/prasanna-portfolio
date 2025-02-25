@@ -1,0 +1,20 @@
+.tabs-container{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0px;
+    grid-template-columns: auto auto auto;
+    gap: 2px;
+}
+.tab{
+    background-color: rgb(193, 211, 193);
+    padding: 10px 70px;
+    font-weight: 400;
+    font-size: larger;
+    color: black;
+    cursor: pointer;
+}
+.tab.active {
+    background-color: rgb(2, 80, 2);
+    color: white;
+}

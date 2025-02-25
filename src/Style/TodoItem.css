@@ -1,0 +1,52 @@
+.task {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Align content with space between */
+    align-items: center; /* Align items vertically in the center */
+    background-color: rgb(226, 227, 226);
+    margin: 10px auto; /* Center horizontally */
+    padding: 10px 11px 10px 10px;
+    border-radius: 8px; /* Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    width: 60%; /* Restrict the width for better design */
+}
+
+.buttons {
+    display: flex;
+    gap: 10px; /* Add spacing between buttons */
+}
+
+.delete {
+    margin-left: 10px;
+    color: red;
+    cursor: pointer; /* Add pointer to indicate it's clickable */
+    padding: 10px;
+    border: none;
+    background-color: transparent; /* Make background transparent */
+    font-weight: 700;
+    font-size: medium;
+}
+
+.delete:hover {
+    color: darkred; /* Change color on hover */
+    transform: scale(1.1); /* Add slight scaling effect */
+}
+
+.edit {
+    color: blue;
+    cursor: pointer; /* Add pointer to indicate it's clickable */
+    padding: 10px;
+    border: none;
+    background-color: transparent; /* Make background transparent */
+    font-weight: 700;
+    font-size: medium;
+}
+
+.edit:hover {
+    color: darkblue; /* Change color on hover */
+    transform: scale(1.1); /* Add slight scaling effect */
+}
+.completed {
+    text-decoration: line-through;
+    color: gray; 
+  }
